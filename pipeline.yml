@@ -1,0 +1,16 @@
+---
+resources:
+- name: script
+  type: git
+  source:
+    uri: https://github.com/phamluk/resource.git
+    branch: master
+
+jobs:
+- name: testArchitect
+  public: true
+  plan:
+  - get: script
+    trigger: true
+  - task: testcase1
+    file: script/taskTA/TA.yml
