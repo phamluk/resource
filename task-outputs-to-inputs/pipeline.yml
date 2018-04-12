@@ -35,6 +35,7 @@ jobs:
 
       inputs:
       - name: resource-tutorial
+      - name: some-files1
 
       run:
         path: resource-tutorial/task-outputs-to-inputs/show_files.sh
