@@ -6,8 +6,7 @@ image_resource:
   source: {repository: busybox}
 
 inputs:
-- name: some-important-input
-  path: .
+- name: resource-tutorial
 
 run:
   path: ls
