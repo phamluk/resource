@@ -12,5 +12,5 @@ jobs:
   plan:
   - get: script
     trigger: true
-  - task: testcase1
+  - task: do_testcase
     file: script/taskTA/TA.yml

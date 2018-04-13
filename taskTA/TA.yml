@@ -9,4 +9,4 @@ inputs:
 - name: script
 
 run:
-  path: ./script/taskTA/hello.sh
+  path: ./script/taskTA/testcase.sh
